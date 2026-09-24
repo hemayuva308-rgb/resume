@@ -1,110 +1,458 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
+
+    <title>Hemamalini Yuvaraj - Resume</title>
+
     <style>
-        body{
-            font-size: medium;
-            font-family: 'Times New Roman', Times, serif;
-            margin: 150px;
-            margin-top: 0%;
-            padding: 60px;
-            border: solid;
-            
+
+        * {
+            box-sizing: border-box;
         }
+
+        body {
+            font-size: 16px;
+            font-family: "Times New Roman", Times, serif;
+            margin: 0 auto;
+            padding: 60px;
+            max-width: 1000px;
+            border: 2px solid #000;
+            line-height: 1.5;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        h3 {
+            margin-top: 25px;
+            margin-bottom: 8px;
+        }
+
+        h4 {
+            margin-bottom: 5px;
+        }
+
+        h5 {
+            font-size: 17px;
+            margin-bottom: 0;
+        }
+
+        p {
+            margin-top: 5px;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #000;
+            margin-bottom: 10px;
+        }
+
+        pre {
+            font-family: "Times New Roman", Times, serif;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        ul {
+            margin-top: 5px;
+        }
+
+        a {
+            color: #000;
+            text-decoration: underline;
+            word-break: break-word;
+        }
+
+        a:hover {
+            color: #555;
+        }
+
+        .contact {
+            text-align: center;
+            word-break: break-word;
+        }
+
+        .project-links {
+            margin-bottom: 15px;
+        }
+
+        /* =========================
+           MOBILE RESPONSIVE
+        ========================= */
+
+        @media (max-width: 768px) {
+
+            body {
+                width: 100%;
+                margin: 0;
+                padding: 25px 18px;
+                border: none;
+                font-size: 15px;
+                line-height: 1.45;
+            }
+
+            h1 {
+                font-size: 25px;
+                line-height: 1.2;
+            }
+
+            h3 {
+                font-size: 18px;
+                margin-top: 22px;
+            }
+
+            h4 {
+                font-size: 16px;
+            }
+
+            h5 {
+                font-size: 16px;
+            }
+
+            .contact {
+                text-align: center;
+                font-size: 14px;
+            }
+
+            pre {
+                font-size: 14px;
+                white-space: pre-wrap;
+                overflow-wrap: break-word;
+            }
+
+            ul {
+                padding-left: 20px;
+            }
+
+            p {
+                overflow-wrap: break-word;
+            }
+
+            .project-links {
+                line-height: 1.8;
+            }
+        }
+
+        @media (max-width: 480px) {
+
+            body {
+                padding: 20px 15px;
+                font-size: 14px;
+            }
+
+            h1 {
+                font-size: 22px;
+            }
+
+            h3 {
+                font-size: 17px;
+            }
+
+            h5 {
+                font-size: 15px;
+            }
+
+            .contact {
+                font-size: 13px;
+            }
+
+            pre {
+                font-size: 13px;
+            }
+        }
+
     </style>
 </head>
+
 <body>
 
-<h1>    <center>HEMAMALINI YUVARAJ</center></h1>
-   <center>Full Stack Development</center>
-<p><center>Chennai, India | Portfolio: hema-in.onrender.com | LinkedIn: linkedin.com/in/hemamalini-yuvaraj-291996329 | GitHub: github.com/hemayuva308-rgb</center></p>
-<h3>
-    <hr/>
-PROFESSIONAL SUMMARY
-</h3>
-<p>Final-year BCA student and Full Stack Web Developer skilled in building end-to-end web applications with React.js, Next.js, Node.js, and MongoDB. Experienced in UI/UX design and prototyping with Figma. <br>Founder and Co-Founder of technology ventures with a track record of bringing ideas to market and leading development teams.</p>
-<h3>
-  TECHNICAL SKILLS  
-</h2>
-<pre><b>Frontend:</b>HTML, CSS, JavaScript, React.js, Next.js, Tailwind CSS, Responsive Web Development
+    <!-- HEADER -->
+
+    <h1>HEMAMALINI YUVARAJ</h1>
+
+    <center>
+        <strong>Full Stack Development</strong>
+    </center>
+
+    <p class="contact">
+        Chennai, India |
+        Portfolio:
+        <a href="https://hema-in.onrender.com" target="_blank">
+            hema-in.onrender.com
+        </a>
+        |
+        LinkedIn:
+        <a href="https://linkedin.com/in/hemamalini-yuvaraj-291996329"
+           target="_blank">
+            linkedin.com/in/hemamalini-yuvaraj-291996329
+        </a>
+        |
+        GitHub:
+        <a href="https://github.com/hemayuva308-rgb"
+           target="_blank">
+            github.com/hemayuva308-rgb
+        </a>
+    </p>
+
+
+    <!-- PROFESSIONAL SUMMARY -->
+
+    <h3>
+        <hr>
+        PROFESSIONAL SUMMARY
+    </h3>
+
+    <p>
+        Final-year BCA student and Full Stack Web Developer skilled in
+        building end-to-end web applications with React.js, Next.js,
+        Node.js, and MongoDB. Experienced in UI/UX design and
+        prototyping with Figma.
+        <br><br>
+        Founder and Co-Founder of technology ventures with a track record
+        of bringing ideas to market and leading development teams.
+    </p>
+
+
+    <!-- TECHNICAL SKILLS -->
+
+    <h3>TECHNICAL SKILLS</h3>
+
+    <pre><b>Frontend:</b> HTML, CSS, JavaScript, React.js, Next.js, Tailwind CSS, Responsive Web Development
 <b>Backend:</b> Node.js, Express.js, REST APIs, Authentication, JWT, API Integration
 <b>Databases:</b> MongoDB, PostgreSQL, Prisma
-<b>Programming Languages: </b>JavaScript, Python
-<b>Tools & Platforms: </b>Git, GitHub, Figma, AWS Basics, Microsoft PowerPoint, MS Office
-<b>Design:</b> UI/UX Design, Wireframing, Prototyping, User Flow, Design Systems
-</pre>
-<h3>PROFESSIONAL EXPERIENCE</h3>
-<h5>Freelance Full Stack Developer — 1 Year Experience</h5>
-<ul>
-    <li>Designed and developed responsive websites and web applications for projects and clients.</li>
-</ul>
-<h5>Founder / Full Stack Developer — Qyrixx</h5>
-<p>August 2026 – Present</p>
-<ul>
-    <li>Founder and Full Stack Developer at Qyrixx</li>
-	<li> Developed Qyrixx CRM and technology solutions with a focus on product architecture and scalable backend design</li>
-</ul>
-<h5>Co-Founder & Lead Developer — INTASIA</h5>
-<p>May 2026 – Present</p>
-<ul>
-    <li>Co-Founder and Lead Developer responsible for website development and technical implementation</li>
-	<li>Directed full-stack development and oversaw technical decisions for INTASIA's digital presence</li>
-</ul>
+<b>Programming Languages:</b> JavaScript, Python
+<b>Tools & Platforms:</b> Git, GitHub, Figma, AWS Basics, Microsoft PowerPoint, MS Office
+<b>Design:</b> UI/UX Design, Wireframing, Prototyping, User Flow, Design Systems</pre>
 
 
-<h3>FULL STACK DEVELOPMENT PROJECTS</h3>
+    <!-- PROFESSIONAL EXPERIENCE -->
+
+    <h3>PROFESSIONAL EXPERIENCE</h3>
+
+    <h5>Freelance Full Stack Developer — 1 Year Experience</h5>
+
+    <ul>
+        <li>
+            Designed and developed responsive websites and web applications
+            for projects and clients.
+        </li>
+    </ul>
 
 
-<h3>Qyrixx CRM</h3>
-<p><b>Technology:</b> Next.js</p>
-<p>Full-stack CRM and lead management platform developed for Qyrixx.</p><a>
-<a href="github.com/quix2026-collab/Qyrixxcrm" >github link</a> |  <a href="qyrixxcrm.onrender.com">Live</a>
-<h3>Aurum Bistro Cafe Website</h3>
-<p><b>Technology:</b>HTML, CSS, JavaScript 
-Responsive cafe website. </p><a href=" github.com/hemayuva308-rgb/aurum-bistro">GitHub</a> |<a href="aurum-bistro.vercel.app">Live</a> 
-<h3>INTASIA Website</h3>
-<p><b>Technology: </b>HTML, CSS, JavaScript</p>
-<p>INTASIA website developed as Co-Founder and Lead Developer. </p><a href="github.com/hemayuva308-rgb/intasia.com">github</a>  | <a href="intasia-com.vercel.app"> live</a>
+    <h5>Founder / Full Stack Developer — Qyrixx</h5>
+
+    <p>August 2026 – Present</p>
+
+    <ul>
+        <li>Founder and Full Stack Developer at Qyrixx.</li>
+        <li>
+            Developed Qyrixx CRM and technology solutions with a focus on
+            product architecture and scalable backend design.
+        </li>
+    </ul>
 
 
-<h3>UI/UX DESIGN PROJECTS</h3>
+    <h5>Co-Founder & Lead Developer — INTASIA</h5>
 
-<h3>Eatifio — Cafe UI/UX Design</h3>
-<p>UI/UX design project for a cafe application. Includes wireframing, user flow, and prototyping in Figma.</p> <a href="figma.com/design/s43jGs91dEdbDNjnfxV2BN/Untitled">Figma</a>
-<h3>DOD — Lottery App UI/UX Design</h3>
-<p>UI/UX design for a lottery application. Mobile app UI, user flow, wireframing, and prototyping in Figma. </p><a href="figma.com/design/0KoyHyX1Db7sHB1JMQ353J/Untitled" >Figma</a>
+    <p>May 2026 – Present</p>
+
+    <ul>
+        <li>
+            Co-Founder and Lead Developer responsible for website
+            development and technical implementation.
+        </li>
+        <li>
+            Directed full-stack development and oversaw technical
+            decisions for INTASIA's digital presence.
+        </li>
+    </ul>
 
 
-<h3>CERTIFICATIONS & TRAINING</h3>
-<h4>Novitech R&D Private Limited</h4>
-<pre>
-•	Full Stack Development — 1 Month Internship
-•	UI/UX Design — 1 Month Internship
-•	UI/UX Design — 30 Days MasterClass</pre>
-<h4>Revamp Academy</h4>
-<pre>
-•	Full Stack Developer — 1 Month Internship
-•	MERN Full Stack Development — 4 Months Training
-•	HTML, CSS, JavaScript & ReactJS — Training
-•	NodeJS, ExpressJS & MongoDB — Training</pre>
-<h4>MongoDB</h4>
-•	MongoDB Learning Batch — 13 Badges
+    <!-- FULL STACK PROJECTS -->
 
-<h3>ACHIEVEMENTS & LEADERSHIP</h3>
-<p>Entrepreneur Club — Student Member</p>
-<h3>EDUCATION</h3>
-<pre>Bachelor of Computer Applications (BCA) — Final Year
+    <h3>FULL STACK DEVELOPMENT PROJECTS</h3>
+
+
+    <h3>Qyrixx CRM</h3>
+
+    <p>
+        <b>Technology:</b> Next.js
+    </p>
+
+    <p>
+        Full-stack CRM and lead management platform developed for Qyrixx.
+    </p>
+
+    <div class="project-links">
+        <a href="https://github.com/quix2026-collab/Qyrixxcrm"
+           target="_blank">
+            GitHub
+        </a>
+        |
+        <a href="https://qyrixxcrm.onrender.com"
+           target="_blank">
+            Live
+        </a>
+    </div>
+
+
+    <h3>Aurum Bistro Cafe Website</h3>
+
+    <p>
+        <b>Technology:</b> HTML, CSS, JavaScript
+    </p>
+
+    <p>
+        Responsive cafe website.
+    </p>
+
+    <div class="project-links">
+        <a href="https://github.com/hemayuva308-rgb/aurum-bistro"
+           target="_blank">
+            GitHub
+        </a>
+        |
+        <a href="https://aurum-bistro.vercel.app"
+           target="_blank">
+            Live
+        </a>
+    </div>
+
+
+    <h3>INTASIA Website</h3>
+
+    <p>
+        <b>Technology:</b> HTML, CSS, JavaScript
+    </p>
+
+    <p>
+        INTASIA website developed as Co-Founder and Lead Developer.
+    </p>
+
+    <div class="project-links">
+        <a href="https://github.com/hemayuva308-rgb/intasia.com"
+           target="_blank">
+            GitHub
+        </a>
+        |
+        <a href="https://intasia-com.vercel.app"
+           target="_blank">
+            Live
+        </a>
+    </div>
+
+
+    <!-- UI UX PROJECTS -->
+
+    <h3>UI/UX DESIGN PROJECTS</h3>
+
+
+    <h3>Eatifio — Cafe UI/UX Design</h3>
+
+    <p>
+        UI/UX design project for a cafe application. Includes wireframing,
+        user flow, and prototyping in Figma.
+    </p>
+
+    <div class="project-links">
+        <a href="https://www.figma.com/design/s43jGs91dEdbDNjnfxV2BN/Untitled"
+           target="_blank">
+            Figma
+        </a>
+    </div>
+
+
+    <h3>DOD — Lottery App UI/UX Design</h3>
+
+    <p>
+        UI/UX design for a lottery application. Mobile app UI, user flow,
+        wireframing, and prototyping in Figma.
+    </p>
+
+    <div class="project-links">
+        <a href="https://www.figma.com/design/0KoyHyX1Db7sHB1JMQ353J/Untitled"
+           target="_blank">
+            Figma
+        </a>
+    </div>
+
+
+    <!-- CERTIFICATIONS -->
+
+    <h3>CERTIFICATIONS & TRAINING</h3>
+
+    <h4>Novitech R&D Private Limited</h4>
+
+    <pre>
+• Full Stack Development — 1 Month Internship
+• UI/UX Design — 1 Month Internship
+• UI/UX Design — 30 Days MasterClass
+    </pre>
+
+
+    <h4>Revamp Academy</h4>
+
+    <pre>
+• Full Stack Developer — 1 Month Internship
+• MERN Full Stack Development — 4 Months Training
+• HTML, CSS, JavaScript & ReactJS — Training
+• NodeJS, ExpressJS & MongoDB — Training
+    </pre>
+
+
+    <h4>MongoDB</h4>
+
+    <p>
+        • MongoDB Learning Batch — 13 Badges
+    </p>
+
+
+    <!-- ACHIEVEMENTS -->
+
+    <h3>ACHIEVEMENTS & LEADERSHIP</h3>
+
+    <p>
+        Entrepreneur Club — Student Member
+    </p>
+
+
+    <!-- EDUCATION -->
+
+    <h3>EDUCATION</h3>
+
+    <pre>
+Bachelor of Computer Applications (BCA) — Final Year
 Sri Kanyaka Parameswari Arts and Science College for Women
+
 Higher Secondary Education — Class 12th
 Muruganantham Girls Higher Secondary School
-Marks: 505</pre>
-<h3>SOFT SKILLS</h3>
-<p>Problem Solving, Creative Thinking, Teamwork, Leadership, Adaptability</p>
-<h3>LANGUAGES</h3>
-<P>Tamil, English</P>
+Marks: 505
+    </pre>
+
+
+    <!-- SOFT SKILLS -->
+
+    <h3>SOFT SKILLS</h3>
+
+    <p>
+        Problem Solving, Creative Thinking, Teamwork, Leadership,
+        Adaptability
+    </p>
+
+
+    <!-- LANGUAGES -->
+
+    <h3>LANGUAGES</h3>
+
+    <p>
+        Tamil, English
+    </p>
 
 </body>
+
 </html>
